@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/list.dart';
+import 'package:flutter_application_1/news_paper.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         backgroundColor: Colors.black12,
       ),
-      home: const DemoListView(),
+      home: const NewsPaper(),
     );
   }
 }
